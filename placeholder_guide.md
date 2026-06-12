@@ -8,16 +8,16 @@ This guide details all files, lines, and placeholder elements in your video port
 
 ### Webpage Title
 The HTML page title shown in the browser tab.
-* **File:** [index.html](file:///c:/Users/Admin/Desktop/video_portfolio-main/index.html#L7)
+* **File:** [index.html](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/index.html#L7)
 * **Target Line:**
   ```html
-  <title>video_portfolio</title>
+  <title>umesh_portfolio</title>
   ```
   *Change this to your full name or branding (e.g., `John Doe | Full Stack Developer`).*
 
 ### Branding Name
 The text logo displayed in the top-left of the page.
-* **File:** [Navbar.jsx](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Navbar.jsx#L36-L38)
+* **File:** [Navbar.jsx](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Navbar.jsx#L36-L38)
 * **Target Lines:**
   ```jsx
   <a href="#" className="text-white text-2xl font-black tracking-tight">
@@ -30,10 +30,10 @@ The text logo displayed in the top-left of the page.
 ## 2. Hero Section
 
 The intro screen featuring a background video, headings, call-to-actions, and a play reel button.
-* **File:** [Hero.jsx](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Hero.jsx)
+* **File:** [Hero.jsx](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Hero.jsx)
 
 ### Main Headings
-* **Location:** [Hero.jsx:L54-L68](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Hero.jsx#L54-L68)
+* **Location:** [Hero.jsx:L54-L68](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Hero.jsx#L54-L68)
 * **Target Lines:**
   ```jsx
   <h1 
@@ -54,7 +54,7 @@ The intro screen featuring a background video, headings, call-to-actions, and a 
   ```
 
 ### Background Video Reel
-* **Location:** [Hero.jsx:L5](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Hero.jsx#L5)
+* **Location:** [Hero.jsx:L5](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Hero.jsx#L5)
 * **Target Line:**
   ```jsx
   import heroVideo from '../assets/hero video/Developer_introduces_self_and_sk…_202606051918.mp4';
@@ -68,10 +68,10 @@ The intro screen featuring a background video, headings, call-to-actions, and a 
 ## 3. About Section
 
 The section with an ID badge lanyard visual, your intro bio, and core technology stack icons.
-* **File:** [About.jsx](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/About.jsx)
+* **File:** [About.jsx](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/About.jsx)
 
 ### Profile Photo & Stack Logos
-* **Location:** [About.jsx:L2-L5](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/About.jsx#L2-L5)
+* **Location:** [About.jsx:L2-L5](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/About.jsx#L2-L5)
 * **Target Lines:**
   ```jsx
   import stackImage from '../assets/about/image.png';
@@ -84,7 +84,7 @@ The section with an ID badge lanyard visual, your intro bio, and core technology
   2. To update tech logos, add your logo images to `src/assets/about/` and update these imports.
 
 ### Greeting, Name, and Bio Text
-* **Location:** [About.jsx:L43-L46](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/About.jsx#L43-L46)
+* **Location:** [About.jsx:L43-L46](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/About.jsx#L43-L46)
 * **Target Lines:**
   ```jsx
   <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Hello!</h2>
@@ -98,10 +98,10 @@ The section with an ID badge lanyard visual, your intro bio, and core technology
 ## 4. Services (How We Work) Section
 
 An interactive section demonstrating your workflow step-by-step.
-* **File:** [Services.jsx](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Services.jsx)
+* **File:** [Services.jsx](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Services.jsx)
 
 ### Main Headings
-* **Location:** [Services.jsx:L87-L97](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Services.jsx#L87-L97)
+* **Location:** [Services.jsx:L87-L97](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Services.jsx#L87-L97)
 * **Target Lines:**
   ```jsx
   <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-[1.1] mb-6 tracking-tight relative">
@@ -114,7 +114,7 @@ An interactive section demonstrating your workflow step-by-step.
   ```
 
 ### Workflow Steps (Define, Design, Build, Launch)
-* **Location:** [Services.jsx:L176-L218](file:///c:/Users/Admin/Desktop/video_portfolio-main/src/components/Services.jsx#L176-L218)
+* **Location:** [Services.jsx:L176-L218](file:///c:/Users/Admin/Desktop/umesh_portfolio-main/src/components/Services.jsx#L176-L218)
 * **Target Lines:**
   You can customize the `title` and `text` for each of the four cards:
   ```jsx
